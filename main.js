@@ -6,6 +6,8 @@ const btnTecnico = document.getElementById('btn-tecnico');
 const btnModelagem = document.getElementById('btn-modelagem');
 const btnIot = document.getElementById('btn-iot');
 const btnBanco = document.getElementById('btn-banco');
+const btnApps = document.getElementById('btn-ProgramacaodeAplicativos');
+const btnAds = document.getElementById('btn-DesenvolvimentodeSistemas');
 const logo = document.getElementById('logo');
 
 addEventListener('click', (event) => {
@@ -25,6 +27,10 @@ addEventListener('click', (event) => {
         window.location.href = 'iot.html';
     } else if (event.target === btnBanco) {
         window.location.href = 'banco.html';
+    } else if (event.target === btnAds) {
+        window.location.href = 'ads.html';
+    } else if (event.target === btnApps) {
+        window.location.href = 'apps.html';
     }
 });  
 
